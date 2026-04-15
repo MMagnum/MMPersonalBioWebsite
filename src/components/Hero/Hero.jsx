@@ -14,7 +14,7 @@ function Hero() {
             View Projects
           </a>
           <a
-            href="github.com/marc-mangum"
+            href="https://github.com/MMagnum"
             className={styles.btn}
             target="_blank"
             rel="noopener noreferrer"

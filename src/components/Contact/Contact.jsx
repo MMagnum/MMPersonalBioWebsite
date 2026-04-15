@@ -37,7 +37,7 @@ function Contact() {
       <div className={styles.cardGrid}>
         <a
           className={styles.card}
-          href="https://www.linkedin.com/in/marc-mangum-094987235/?skipRedirect=true"
+          href="https://www.linkedin.com/in/marc-mangum-094987235/"
           target="_blank"
           rel="noopener noreferrer"
         >
