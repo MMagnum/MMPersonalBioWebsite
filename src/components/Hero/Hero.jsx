@@ -11,7 +11,7 @@ function Hero() {
         </div>
         <div>
           <a href="#projects" className={styles.btn}>
-            View Projects
+            View Project
           </a>
           <a
             href="https://github.com/MMagnum"
