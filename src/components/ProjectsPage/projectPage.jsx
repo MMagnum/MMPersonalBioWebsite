@@ -88,11 +88,6 @@ function ProjectPage() {
                     <li key={i}>{point}</li>
                   ))}
                 </ul>
-                <div className={styles.links}>
-                  <a href={project.github} target="_blank" rel="noopener noreferrer">
-                    View on GitHub
-                  </a>
-                </div>
               </div>
             )}
           </article>
