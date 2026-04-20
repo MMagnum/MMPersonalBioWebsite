@@ -3,6 +3,8 @@ import styles from "./Navbar.module.css";
 function Navbar() {
   return (
     <nav className={styles.navbar}>
+      <div className={styles.logo}>Marc Mangum</div>
+      
       <ul className={styles.navLinks}>
         <li>
           <a href="#home">Home</a>
