@@ -13,7 +13,6 @@ const projects = [
       'Simulated registers and memory interactions',
       'Tested behavior with structured unit tests',
     ],
-    github: '#',
   },
   {
     title: 'Assembler Project',
@@ -27,7 +26,6 @@ const projects = [
       'Handled labels and directives in a two-pass assembler',
       'Generated binary machine code output for use with the CPU emulator',
     ],
-    github: '#',
   },
   {
     title: 'Personal Portfolio Website',
@@ -41,7 +39,6 @@ const projects = [
       'Implemented reusable React components for different sections of the site',
       'Showcased projects and skills in an organized manner',
     ],
-    github: '#',
   }
 ];
 

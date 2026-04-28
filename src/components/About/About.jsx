@@ -1,5 +1,12 @@
 import styles from './About.module.css';
 
+const skills = [
+  'C++', 'CMake', 'Google Test',
+  'Python', 'Regex', 'Assembly',
+  'React', 'JavaScript', 'CSS Modules',
+  'Systems Programming', 'Git',
+];
+
 function About() {
   return (
     <section id="about" className={styles.about}>
@@ -32,25 +39,12 @@ function About() {
           </div>
 
           <aside className={styles.skillsCard}>
-            <h3 className={styles.skillsTitle}>Highlights</h3>
-            <ul className={styles.skillsList}>
-              <li>
-                <strong>C++:</strong> Implemented a CPU emulator with
-                instruction execution and memory handling
-              </li>
-              <li>
-                <strong>Python:</strong> Built an assembler to translate
-                assembly language into binary
-              </li>
-              <li>
-                <strong>Systems:</strong> Designed a full pipeline from assembly
-                code to CPU execution
-              </li>
-              <li>
-                <strong>React:</strong> Developing a personal portfolio and web
-                applications
-              </li>
-            </ul>
+            <h3 className={styles.skillsTitle}>Skills & Tools</h3>
+            <div className={styles.skillsTags}>
+              {skills.map((skill) => (
+                <span key={skill} className={styles.skillTag}>{skill}</span>
+              ))}
+            </div>
           </aside>
         </div>
       </div>
